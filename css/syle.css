@@ -1,0 +1,169 @@
+header{
+    max-width: 1440px;
+
+}
+
+main{
+    max-width: 1440px;
+}
+
+.container-logo{
+    display: flex;    
+    padding: 32px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 12px solid #EC8922;
+    background: #FFF;
+
+}
+
+
+
+.menu__search-icon{
+
+    display: flex;    
+    padding: 8px 16px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;    
+    background: rgba(255, 255, 255, 0.00);
+    margin-left: 600px;
+    
+}
+
+.fa-magnifying-glass{
+    margin-left: -30px;
+}
+
+.menu-input{
+    display: flex;    
+    padding: 8px 16px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.menu-burguer{
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    font-size: 30px;
+    padding-top: 32px;
+}
+
+.banner{
+    display: flex;    
+    height: 70%;
+    padding: 180px 80px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 64px;
+    background-image: url('../img/cel-banner.png');
+    background-size: cover;
+    background-position: 0 10%;
+    
+    
+}
+
+.banner-text{
+    color: #000;
+    font-family: Oswald;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-name{
+    color: var(--Laranja-Escuro, #EC8922);
+    font-family: Oswald;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-p{
+    color: #000;
+    font-family: Oswald;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.banner-img img{
+
+    width: 208px;
+    height: 192px;
+    border-radius: 25px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+    display: flex;
+    gap: 16px;
+    padding: 10px;
+}
+
+.banner-img{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.bloco-suco{
+    display: flex;
+    padding: 0px 16px;
+    padding-left: 80px;
+    justify-content: center;
+    align-items: center;
+    gap: 68px;
+    background: var(--Laranja-Muito-Claro, #FFF9F3);
+}
+
+.h2{
+
+    color: #000;
+    font-family: Oswald;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.bloco-text{
+
+    color: var(--Verde, #6DC35D);
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.bloco-suco-p{
+    color: #000;
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bloco-button{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    border: 2px solid var(--Verde, #6DC35D);
+    color: var(--Verde, #6DC35D);
+    font-family: Oswald;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+
+

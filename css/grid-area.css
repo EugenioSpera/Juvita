@@ -1,0 +1,24 @@
+.bloco-suco{
+    display:grid;
+    grid-template-areas: 
+    "first third"
+    "second third";
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 30px;
+}
+
+.item1{
+
+    grid-area: first;    
+
+}
+
+.item2 {
+    grid-area: second;
+}
+
+.item3{
+    grid-area: third;
+}
+
