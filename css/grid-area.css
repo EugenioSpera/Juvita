@@ -8,7 +8,7 @@
     gap: 30px;
 }
 
-.item1{
+.item1 {
 
     grid-area: first;    
 
@@ -18,7 +18,109 @@
     grid-area: second;
 }
 
-.item3{
+.item3 {
     grid-area: third;
 }
 
+.bloco-vitamina {
+    display:grid;
+    grid-template-areas: 
+    "fourth fifth"
+    "fourth sixth";
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 30px;
+}
+
+.item4 {
+
+    grid-area: fourth;    
+
+}
+
+.item5 {
+    grid-area: fifth;
+}
+
+.item6 {
+    grid-area: sixth;
+}
+
+.bloco-pitaya {
+    display:grid;
+    grid-template-areas: 
+    "seventh eighth"
+    "seventh eighth";
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 30px;
+}
+
+.item7 {
+
+    grid-area: seventh;    
+
+}
+
+.item8 {
+    grid-area: eighth;
+}
+
+.form {
+    display:grid;
+    grid-template-areas: 
+    "name name name"    
+    "cpf . cep"
+    "adress adress adress"
+    "number . complement"
+    "city state tel" 
+    ;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: auto;
+    gap: 30px;
+}
+
+.item9 {
+
+    grid-area: name;    
+
+}
+
+
+.item10 {
+    grid-area: cpf;
+}
+
+.item11 {
+
+    grid-area: cep;    
+
+}
+
+.item12 {
+    grid-area: adress;
+}
+
+.item13 {
+
+    grid-area: number;    
+
+}
+
+.item14 {
+    grid-area: complement;
+}
+
+.item15 {
+    grid-area: city;
+}
+
+.item16 {
+
+    grid-area: state;    
+
+}
+
+.item17 {
+    grid-area: tel;
+}
