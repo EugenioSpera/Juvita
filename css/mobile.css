@@ -1,0 +1,35 @@
+
+@media screen and (max-width: 576px) {
+
+
+.container-logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 360px;
+    
+}  
+    
+
+.container-menu{
+    display: flex;
+    margin: 0;      
+    
+}
+
+.banner{
+    
+    background-size:contain;  
+    
+
+.banner-img{
+    display: none;
+}
+
+.banner-back{
+    background: rgba(246, 228, 208, 0.50);
+    width: 100%;
+}
+
+
+}
