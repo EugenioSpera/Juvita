@@ -19,8 +19,9 @@
 
 .banner{
     
-    background-size:contain;  
-    
+    background-size:contain;
+    width: 100%;  
+}   
 
 .banner-img{
     display: none;
@@ -29,6 +30,20 @@
 .banner-back{
     background: rgba(246, 228, 208, 0.50);
     width: 100%;
+}
+
+
+
+.bloco-suco{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.item3{
+    display: none;
 }
 
 
