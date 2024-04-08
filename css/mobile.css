@@ -4,9 +4,11 @@
 
 .container-logo{
     display: flex;
+    width: 100%;
     flex-direction: column;
-    justify-content: center;
-    min-width: 360px;
+    justify-content: center;    
+    padding: 0;
+    margin: 0;
     
 }  
     
@@ -19,8 +21,13 @@
 
 .banner{
     
-    background-size:contain;
-    width: 100%;  
+    background-size:cover;
+    display: flex;
+    width: 100%;
+    height: 310px;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: center;
 }   
 
 .banner-img{
@@ -29,21 +36,193 @@
 
 .banner-back{
     background: rgba(246, 228, 208, 0.50);
-    width: 100%;
+    height: 70%;
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    
 }
 
+.banner-text{
+    font-size: 40px;
+}
 
+.banner-name{
+    font-size: 40px;
+}
+
+.banner-p{
+    font-size: 20px;
+}
 
 .bloco-suco{
     display: flex;
+    width: 100%;    
     flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
+    padding: 0;
+    
+
+    
 }
+
+.item1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .item3{
     display: none;
+}
+
+.item2{
+    width: 100%;
+    height: 325px;
+    
+}
+
+.bloco-vitamina{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.item4{
+    display: none;
+}
+
+.item5{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.bloco-pitaya{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 0;
+    margin: 0;    
+
+}
+
+
+.item8{
+    
+    width: 100%; 
+    margin: 0;
+    padding: 0;  
+    gap: 0;
+    
+}
+
+.bloco-mkt{
+    width: 100%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+           
+}
+
+.bloco-mkt-txt{
+    align-items: center;
+    justify-content: center ;
+}
+.bloco-mkt-text-img{
+    
+    flex-direction: row-reverse;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+
+.bloco-mkt h2{
+    padding: 0;
+    margin: 0;
+}
+
+.mkt-container{
+    display: flex;    
+    flex-direction: column;
+    width: 100%;
+
+}
+
+
+.form{
+    width: 80%;    
+    display: flex;
+    flex-direction: column;
+    margin: 0; 
+  
+}
+
+.mkt-button{
+    margin: 0;
+}
+
+   
+footer{
+    height: 1100px;
+    
+}
+
+.container-final{
+    display: flex;    
+    width: 100%;
+    flex-direction: column;
+    border-right: 0;
+    border-bottom: 1px solid;
+
+    
+    
+}
+
+.final-menu{
+    width: 100%;
+    border-right: 0;
+    border-bottom: 1px solid;   
+    
+     
+
+}
+
+.container-adress-bloco{
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.container-adress{
+    width: 100%;
+    height: auto;
+    border-right: 0;
+    border-bottom: 1px solid;   
+
+}
+
+.contact{
+    width: 100%;
+    height: auto;
+    
+
+}
+
+
+.final-credit{
+    height: auto;
+    width: 100%;
 }
 
 
